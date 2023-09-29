@@ -1,0 +1,71 @@
+.box {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black;
+  border-radius: 5px; */
+}
+
+.line {
+  width: 20px;
+  height: 1px;
+  background-color: black;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.left-icons {
+  width: 25%;
+  display: flex;
+}
+
+.top-right-section {
+  width: 25%;
+  display: flex;
+}
+
+.youtube-icon {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  /* margin-left: 10px; */
+}
+
+.search-bar {
+  /* width: 50%; */
+  height: 45px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  padding: 5px 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  flex-grow: 1;
+  outline: none;
+  /* display: flex; */
+}
+
+.right-icons {
+  /* width: 25%; */
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.notification-icon,
+.profile-image {
+  height: 35px;
+  margin-left: 10px;
+}
